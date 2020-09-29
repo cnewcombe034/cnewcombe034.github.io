@@ -1,0 +1,106 @@
+/* Part A */
+body {
+  background-color:skyblue;
+}
+
+#igottabeme {font-family: Arial, Helvetica, Sans-serif;
+}
+
+.classy {
+  margin-left:10px;
+}
+
+/* Part B*/
+#d1,#d2,#d3 {margin-bottom:50px;
+}
+
+span.a {display:inline;
+  width:100px;
+  height:50px;
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-right:20px;
+  padding-left:20px;
+  border-style:solid;
+  border-color:blue;
+  background-color:yellow;
+}
+
+.b {display:block;width:100px;
+  height:50px;
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-right:20px;
+  padding-left:20px;
+  border-style:solid;
+  border-color:blue;
+  background-color:yellow;
+}
+
+.c {display:inline-block;
+  width:100px;
+  height:50px;
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-right:20px;
+  padding-left:20px;
+  border-style:solid;
+  border-color:blue;
+  background-color:yellow;
+}
+
+/* Part C */
+#cat {
+  position: fixed;
+  bottom:0;
+  right:0;
+}
+
+#dog {
+  position: relative;
+  left:5px;
+  bottom:150px;
+}
+
+#positionMe {
+  position:relative;
+  background-color:orange;
+}
+
+#bird {
+  position:absolute;
+  top:50px;
+  left:250px;
+}
+
+.navBar {
+  position:-webkit-sticky;
+  position:sticky;
+  top:0;
+  background-color:green;
+  opacity:0.9;
+  padding:5px;
+  font-size:20px;
+}
+
+
+/* Part D */
+
+table.stripey tr:nth-child(even) {
+  background-color: gray;
+  text-align:right;
+}
+table.stripey tr:nth-child(odd) {
+  background-color: white;
+  text-align:right;
+}
+table.stripey th {
+  color: white;
+  background-color: black;
+}
+tbody.mousey td:hover {
+  background-color: yellow;
+}
+input[type="text"].pinkey:focus {
+  background-color: pink;
+}
